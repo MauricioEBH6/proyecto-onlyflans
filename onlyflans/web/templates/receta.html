@@ -1,0 +1,266 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="py-5">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden bg-white p-4 p-md-5">
+
+                    <div class="text-center pb-4 border-bottom">
+                        <span class="badge badge-warm px-3 py-2 rounded-pill text-uppercase mb-2">
+                            <i class="bi bi-fire me-1"></i> Postre Saludable
+                        </span>
+                        <h1 class="display-6 fw-bold text-dark mb-2">Flan Fit con Proteína</h1>
+                        <p class="text-secondary mb-0">Una versión suave, cremosa y alta en proteína del clásico flan
+                            casero, sin azúcar añadida.</p>
+                        <p class="text-secondary mb-0">Con esto puedes preparar nuestro mejor flan en tu propio hogar.
+                        </p>
+                    </div>
+
+                    <div class="row g-3 my-4">
+                        <div class="col-6 col-md-3">
+                            <div class="metric-card p-3 text-center">
+                                <div class="text-muted small text-uppercase fw-semibold"><i
+                                        class="bi bi-clock me-1"></i> Prep</div>
+                                <div class="fs-5 fw-bold text-dark mt-1">10 min</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-card p-3 text-center">
+                                <div class="text-muted small text-uppercase fw-semibold"><i class="bi bi-fire me-1"></i>
+                                    Cocción</div>
+                                <div class="fs-5 fw-bold text-dark mt-1">40 min</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-card p-3 text-center">
+                                <div class="text-muted small text-uppercase fw-semibold"><i
+                                        class="bi bi-pie-chart me-1"></i> Porciones</div>
+                                <div class="fs-5 fw-bold text-dark mt-1">4 flanes</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-card p-3 text-center">
+                                <div class="text-muted small text-uppercase fw-semibold"><i
+                                        class="bi bi-lightning-charge me-1"></i> Proteína</div>
+                                <div class="fs-5 fw-bold text-dark mt-1">~22g / u</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5">
+                        <h2 class="h4 fw-bold text-dark mb-3">
+                            <i class="bi bi-basket text-warning me-2"></i>Ingredientes
+                        </h2>
+                        <ul class="list-group list-group-flush rounded-3 border">
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Leche o bebida vegetal sin
+                                    azúcar</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">400
+                                    ml</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Proteína en polvo (Whey o vegetal
+                                    vainilla)</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">2 scoops
+                                    (~60 g)</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Huevos enteros</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">3
+                                    unidades</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Claras de huevo</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">2
+                                    unidades</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Endulzante (alulosa, eritritol o
+                                    estevia)</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">Al
+                                    gusto</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Esencia de vainilla</span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">1
+                                    cdta.</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                                <span><i class="bi bi-check2 text-success me-2"></i>Caramelo fit (alulosa dorada o
+                                    sirope 0%) <em class="text-muted small">(opcional)</em></span>
+                                <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">3
+                                    cdas.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <h2 class="h4 fw-bold text-dark mb-3">
+                            <i class="bi bi-journal-text text-warning me-2"></i>Instrucciones
+                        </h2>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">1</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Precalentar el horno y preparar el baño María</h6>
+                                    <p class="text-secondary small mb-0">Precalienta a 160°C. Coloca una fuente
+                                        refractaria o bandeja honda con unos 2 cm de agua tibia dentro del horno.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">2</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Caramelo fit (opcional)</h6>
+                                    <p class="text-secondary small mb-0">Derrite alulosa a fuego bajo en una sartén
+                                        pequeña hasta obtener un tono ámbar claro. Reparte de inmediato en el fondo de 4
+                                        moldes individuales.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">3</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Integrar los ingredientes</h6>
+                                    <p class="text-secondary small mb-0">En el vaso de la licuadora o con batidor
+                                        manual, junta la leche, huevos, claras, proteína, vainilla y endulzante. Bate a
+                                        baja velocidad para evitar espuma innecesaria.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">4</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Colar la mezcla</h6>
+                                    <p class="text-secondary small mb-0">Pasa la preparación a través de un colador fino
+                                        al llenar las flaneras para lograr una textura sedosa y sin grumos.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">5</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Cocinar a baño María</h6>
+                                    <p class="text-secondary small mb-0">Acomoda los moldes en la fuente con agua y
+                                        hornea a 160°C durante 35-40 min, hasta que los costados estén firmes y el
+                                        centro tiemble levemente.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                                <span class="step-number">6</span>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Refrigeración</h6>
+                                    <p class="text-secondary small mb-0">Deja templar a temperatura ambiente y luego
+                                        refrigera al menos 4 horas (o toda la noche) antes de desmoldar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-warning-subtle border-warning border-opacity-25 rounded-3 p-4">
+                        <h5 class="fw-bold text-dark mb-3">
+                            <i class="bi bi-activity text-danger me-2"></i>Información Nutricional Aprox. (por porción)
+                        </h5>
+                        <div class="row g-2 text-center">
+                            <div class="col-6 col-md-3">
+                                <div class="bg-white rounded-3 p-2 shadow-sm">
+                                    <div class="text-muted small">Calorías</div>
+                                    <div class="fw-bold text-dark fs-5">~140 kcal</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="bg-white rounded-3 p-2 shadow-sm">
+                                    <div class="text-muted small">Proteína</div>
+                                    <div class="fw-bold text-success fs-5">~22 g</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="bg-white rounded-3 p-2 shadow-sm">
+                                    <div class="text-muted small">Grasas</div>
+                                    <div class="fw-bold text-dark fs-5">~4.5 g</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="bg-white rounded-3 p-2 shadow-sm">
+                                    <div class="text-muted small">Carbohidratos</div>
+                                    <div class="fw-bold text-dark fs-5">~2 g</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="h4 fw-bold text-dark mb-3">
+                            <i class="bi bi-images text-warning me-2"></i>Galería del Proceso
+                        </h2>
+                        <div id="recipeCarousel" class="carousel slide recipe-carousel shadow-sm"
+                            data-bs-ride="carousel">
+                            <div class="carousel-indicators mb-2">
+                                <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Paso 1"></button>
+                                <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1"
+                                    aria-label="Paso 2"></button>
+                                <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="2"
+                                    aria-label="Paso 3"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{% static 'img/ingredientes.jpg' %}" class="d-block w-100"
+                                        alt="ingredientes">
+                                    <div class="carousel-caption d-block text-start">
+                                        <span class="badge bg-warning text-dark mb-1">Ingredientes</span>
+                                        <h5 class="fw-bold bg-dark mb-1">Los puedes encontrar en nuestras tiendas
+                                            físicas</h5>
+                                        <p class="small text-light bg-dark mb-0">Estos estan frescos y listos para
+                                            utilizar</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{% static 'img/paso3.jpg' %}" class="d-block w-100" alt="integrar">
+                                    <div class="carousel-caption d-block text-start">
+                                        <span class="badge bg-warning text-dark mb-1">Integrar los ingredientes</span>
+                                        <h5 class="fw-bold bg-dark mb-1">Punto crucial para la textura perfecta</h5>
+                                        <p class="small text-light bg-dark mb-0">Bate a baja velocidad para evitar
+                                            espuma innecesaria.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{% static 'img/flanfinal.jpg' %}" class="d-block w-100" alt="resultado">
+                                    <div class="carousel-caption d-block text-start">
+                                        <span class="badge bg-warning text-dark mb-1">Resultado final</span>
+                                        <h5 class="fw-bold bg-dark mb-1">Textura firme y caramelo dorado</h5>
+                                        <p class="small text-light bg-dark mb-0">Listo para servir tras un buen reposo
+                                            en frío
+                                            en la nevera.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

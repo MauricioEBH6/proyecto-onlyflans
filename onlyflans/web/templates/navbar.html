@@ -1,0 +1,33 @@
+<nav class="mb-4">
+    <div class="container">
+        <ul class="nav py-2">
+            <li class="nav-item">
+                <a class="nav-link text-dark fw-bold ps-0" href="{% url 'indice' %}">Inicio</a>
+            </li>
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="{% url 'bienvenido' %}">Bienvenido</a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="{% url 'acerca' %}">Acerca</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="{% url 'receta' %}">Receta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="{% url 'contacto' %}">Contacto</a>
+            </li>
+            <li class="nav-item">
+                {% if user.is_authenticated %}
+                <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button class="nav-link text-secondary" type="submit">Cerrar sesión</button>
+                </form>
+                {% else %}
+                <a class="nav-link text-secondary" href="{% url 'login' %}">Iniciar sesión</a>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+</nav>
